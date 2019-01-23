@@ -3,8 +3,13 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.base};
+  background: ${props => props.theme.colors.headerbg};
+  background-image: url(${props => props.theme.bg.header});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  height: 300px;
   padding: 1.5em 0;
 `
 const Nav = styled.nav`

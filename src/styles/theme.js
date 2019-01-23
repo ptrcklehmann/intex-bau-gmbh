@@ -1,9 +1,15 @@
+import headerbg from '../images/header-bg.jpg'
+
 const theme = {
   colors: {
     base: '#121212', // Black
+    headerbg: '#fad514',
     secondary: '#e9e9e9', // Medium Gray
     tertiary: '#f3f3f3', // Light Gray
     highlight: '#5b8bf7', // Light Blue
+  },
+  bg: {
+    header: headerbg
   },
   sizes: {
     maxWidth: '1050px',
